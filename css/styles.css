@@ -1,0 +1,67 @@
+/* Layout generale */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f6f8f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Header in alto a sinistra */
+.header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 20px 40px;
+}
+
+.logo {
+  height: 40px;
+}
+
+.brand {
+  font-size: 28px;
+  font-weight: bold;
+  color: #222;
+}
+
+/* Corpo principale centrato */
+.main-content {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px; /* stacco dall'header */
+}
+
+/* Card */
+.card {
+  background: #fff;
+  width: 100%;
+  max-width: 700px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  padding: 20px;
+}
+
+/* Bottoni */
+.buttons {
+  margin-bottom: 20px;
+}
+
+.buttons .btn {
+  padding: 6px 12px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn.blue {
+  background-color: #4aa3ff;
+  color: #fff;
+}
+
+.btn.grey {
+  background-color: #e0e0e0;
+  color: #888;
+}
