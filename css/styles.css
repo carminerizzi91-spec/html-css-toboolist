@@ -125,4 +125,9 @@ hr {
 .mobile { 
     background: #ff9800; 
 }
-
+.website { 
+    background: #e91e63; 
+}
+.sales { 
+    background: #cddc39; color: #333; 
+}
