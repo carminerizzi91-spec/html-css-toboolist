@@ -7,6 +7,10 @@ body {
   color: #333;
 }
 
+hr {
+    color: lightgray;
+}
+
 /* Header in alto a sinistra */
 .header {
   display: flex;
@@ -29,7 +33,7 @@ body {
 .main-content {
   display: flex;
   justify-content: center;
-  margin-top: 30px; /* stacco dall'header */
+  margin-top: 30px;
 }
 
 /* Card */
@@ -65,3 +69,60 @@ body {
   background-color: #e0e0e0;
   color: #888;
 }
+
+/* Sezioni */
+.task-section {
+  margin-bottom: 20px;
+}
+
+.task-section h2 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.task-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.task-section li {
+  margin: 6px 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Checkmarks */
+.check {
+  font-weight: bold;
+}
+
+.done {
+  color: #4caf50;
+}
+
+.notdone {
+  color: #f44336;
+}
+
+/* Tags */
+.tag {
+  font-size: 12px;
+  padding: 2px 8px;
+  border-radius: 12px;
+  color: white;
+}
+
+.editorial { 
+    background: #2196f3; 
+}
+.goals { 
+    background: #9c27b0; 
+}
+.recruiting { 
+    background: #26a69a; 
+}
+.mobile { 
+    background: #ff9800; 
+}
+
